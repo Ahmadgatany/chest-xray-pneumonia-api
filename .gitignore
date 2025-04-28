@@ -1,0 +1,34 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore directories containing test data
+tests/test data/
+
+# Ignore IDE configuration files
+.idea/
+.vscode/
+
+# Ignore pytest cache files
+.pytest_cache/
+
+# Ignore Azure pipeline file
+azure-pipelines.yml
+
+# Ignore pip cache metadata
+pip-wheel-metadata/
+
+# Ignore environment files and folders
+*.env
+.venv/
+env/
+venv/
+
+# Ignore Jupyter Notebook checkpoint files
+.ipynb_checkpoints/
+
+# Ignore log files
+*.log
+
+# Ignore Git folder
+.git/
