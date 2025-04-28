@@ -33,5 +33,3 @@ venv/
 # Ignore Git folder
 .git/
 
-# Ignore saved models folder
-saved_models/
