@@ -10,15 +10,26 @@ chest-xray-pneumonia-api/
 │   ├── config.py
 │   ├── main.py
 │   ├── loaders/
+│   │   └── model_loader.py
 │   ├── routes/
-│   ├── utils/
-├── saved_models/
-├── tests/
+│   │   └── predict.py
+│   └── utils/
+│       └── preprocessing.py
 ├── notebooks/
-├── Dockerfile
-├── requirements.txt
-├── README.md
+│   └── chest-x-ray-pneumonia-classifier-cnn-tl.ipynb
+├── saved_models/
+│   ├── class_labels.pkl
+│   ├── cnn_model.h5
+│   ├── densenet121_model.h5
+│   └── mobilenetv2_model.h5
+├── tests/
+│   ├── __init__.py
+│   ├── test_api.py
+│   └── test_image1.jpeg
 ├── azure_deploy.md
+├── Dockerfile
+├── README.md
+├── requirements.txt
 ```
 
 ## Features
