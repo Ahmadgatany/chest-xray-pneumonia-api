@@ -51,7 +51,7 @@ The dataset used to train and evaluate the models can be found here:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/chest-xray-pneumonia-api.git
+   git clone https://github.com/Ahmadgatany/chest-xray-pneumonia-api.git
    cd chest-xray-pneumonia-api
    ```
 
